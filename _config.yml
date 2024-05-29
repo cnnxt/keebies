@@ -1,0 +1,8 @@
+locale                   : "en-US"
+title                    : "keebies"
+title_separator          : "-"
+name                     : "Connie Tu"
+description              : &description "personal description"
+url                      : https://cnnxt.github.io
+baseurl                  : /keebies
+repository               : "cnnxt/keebies"
