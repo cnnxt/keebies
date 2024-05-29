@@ -1,7 +1,5 @@
-
 <?php
-
-// Get values from form
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $name=$_POST['name'];
 $email=$_POST['email'];
 $inquiry=$_POST['inquiry'];
@@ -20,8 +18,7 @@ if(@mail($to,$subject,$message,$headers))
         $subject="inquiry about keebies"; 
         mail("conniextu@gmail.com", $subject, $message, $from); 
         echo "thanks for sending in your inquiry!"; 
- 
-  // Created by Future Tutorials
-}else{
+ }else{
   echo "error! please try again.";
 }
+?>
