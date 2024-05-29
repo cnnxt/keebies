@@ -25,7 +25,3 @@ if(@mail($to,$subject,$message,$headers))
 }else{
   echo "error! please try again.";
 }
-
-
-
-?>
