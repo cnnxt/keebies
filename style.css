@@ -4,9 +4,9 @@
   font-family: "SalisburyBold";
   src:
     local("SalisburyBold"),
-    url("fonts/salisburybold.ttf") format("truetype"),
-    url("fonts/salisburybold.woff") format("woff"),
-    url("fonts/salisburybold.woff2") format("woff2");
+    url("https://cnnxt.github.io/keebies/fonts/salisburybold.ttf") format("truetype"),
+    url("https://cnnxt.github.io/keebies/fonts/salisburybold.woff") format("woff"),
+    url("https://cnnxt.github.io/keebies/fonts/salisburybold.woff2") format("woff2");
 }
 
 body {
