@@ -25,7 +25,7 @@ overflow-x: hidden;
   margin: 5% 0% 0% 0%;
   width: 100%;
   height: 100%;
-  font-family: "SalisburyBold", sans-serif;
+  font-family: "SalisburyBold", sans-serif !important;
   letter-spacing: -1px;
   font-style: normal;
   text-align: left;
